@@ -1,0 +1,78 @@
+.menuButton {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-color: rgba(58, 138, 190, 255);
+    border-right-color: rgba(58, 138, 190, 255);
+    border-top-color: rgba(58, 138, 190, 255);
+    border-bottom-color: rgba(58, 138, 190, 255);
+    -unity-font-definition: url('project://database/Assets/Fonts/barlow-condensed.regular%20SDF.asset?fileID=11400000&guid=4a1b2a5ce1d94bf4aa0db08c925f27d7&type=2#barlow-condensed.regular SDF');
+    background-color: rgba(188, 188, 188, 0);
+    -unity-font-style: bold;
+    width: 150px;
+    height: 50px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.menuButton:hover {
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-color: rgba(49, 145, 197, 255);
+    border-right-color: rgba(49, 145, 197, 255);
+    border-top-color: rgba(49, 145, 197, 255);
+    border-bottom-color: rgba(49, 145, 197, 255);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition-duration: 250ms;
+    transition-timing-function: ease-out-sine;
+    transition-property: border-width;
+}
+
+.menuButton:focus {
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-color: rgba(49, 145, 197, 255);
+    border-right-color: rgba(49, 145, 197, 255);
+    border-top-color: rgba(49, 145, 197, 255);
+    border-bottom-color: rgba(49, 145, 197, 255);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(49, 145, 197, 255);
+}
+
+TextField > #unity-text-input {
+    border-left-color: rgba(49, 145, 197, 255);
+    border-right-color: rgba(49, 145, 197, 255);
+    border-top-color: rgba(49, 145, 197, 255);
+    border-bottom-color: rgba(49, 145, 197, 255);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/Fonts/barlow-condensed.regular%20SDF.asset?fileID=11400000&guid=4a1b2a5ce1d94bf4aa0db08c925f27d7&type=2#barlow-condensed.regular SDF');
+    -unity-font-style: normal;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out-sine;
+}

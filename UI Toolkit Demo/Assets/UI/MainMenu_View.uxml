@@ -1,7 +1,9 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
     <Style src="project://database/Assets/UI/MainMenu_Style.uss?fileID=7433441132597879392&amp;guid=f742909f754462a46a1919ef54123e14&amp;type=3#MainMenu_Style" />
-    <ui:Button text="Button" display-tooltip-when-elided="true" />
-    <ui:Button text="Button" display-tooltip-when-elided="true">
-        <ui:Button text="Button" display-tooltip-when-elided="true" />
-    </ui:Button>
+    <ui:VisualElement name="MainMenu" style="flex-grow: 1; align-items: center; justify-content: flex-end;">
+        <ui:TextField picking-mode="Ignore" value="filler text" text="Enter yor name" name="NameTextField" is-delayed="true" style="height: 50px; width: 150px;" />
+        <ui:Button text="Start" display-tooltip-when-elided="true" name="StartButton" class="menuButton" />
+        <ui:Button text="Options" display-tooltip-when-elided="true" name="OptionsButton" class="menuButton" />
+        <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" class="menuButton" />
+    </ui:VisualElement>
 </ui:UXML>
